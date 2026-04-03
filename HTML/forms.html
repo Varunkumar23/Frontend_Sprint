@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #form{
+            background-color:skyblue;
+            font-weight: bolder;
+            width:400px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            border: 10px solid grey;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <fieldset>
+        <legend><mark>Job Application</mark></legend>
+    <div id="form">
+    <form action="">
+
+        <label for="username">Name</label>
+        <input type="text" name="" id="username" placeholder="Enter your username"><br><br>
+        <label for="mail">Email</label>
+        <input type="email" name="" id="mail" placeholder="Enter your email"><br><br>
+         <label for="password">Password</label>
+        <input type="text" name="" id="password" placeholder="Enter your password"><br><br>
+        <label for="">Gender: </label>
+        <label for="">Male</label>
+        <input type="radio" name="gender">
+         <label for="">Female</label>
+        <input type="radio" name="gender"><br><br>
+
+        <label for="Skills">Skills :  </label>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" checked>
+         <label for="css">CSS</label>
+        <input type="checkbox" id="css" checked> 
+        <label for="js">JS</label>
+        <input type="checkbox" id="js"><br><br>
+
+        <label for="contact">Contact No</label>
+        <input type="tel" minlength="10" maxlength="10" id="contact"><br><br>
+
+
+        <label for="resume">Resume</label>
+        <input type="file" name="" id="" accept=".pdf"><br><br>
+
+<label id="branch">Branch</label>
+<select name="" id="branch">
+
+    <option value="">Btech</option>
+    <option value="">MBA</option>
+    <option value="">MCA</option>
+
+
+</select><br><br>
+
+<label id="departments">Departments</label>
+<select name="" id="">
+<optgroup label="CSE">
+    <option value="">Data Science</option>
+        <option value="">Full Stack</option>
+        <option value="">Cloud</option>
+
+</optgroup>
+
+<optgroup label="MBA">
+    <option value="">Fashion</option>
+        <option value="">Agriculture</option>
+        <option value="">Media</option>
+
+</optgroup>
+</select><br><br>
+
+        <label for="doj">Date of Joining</label>
+        <input type="date" name="" id="doj" min="2026-04-02"><br><br>
+
+
+        <label for="exp">Experience</label>
+        <input type="range" name="" id="exp" step="5"><br><br>
+
+         <label for="time">Time Slot</label>
+        <input type="time" name="" id="time"><br><br>
+
+         <label for="address">Address</label>
+         <textarea name="" id="address"></textarea>
+        
+        <button>Submit</button>
+    </form>
+    </div>
+    </fieldset>
+</body>
+</html>
